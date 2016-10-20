@@ -38,7 +38,7 @@ print(compareLists(a,b))
 
 
 
-def multiCompLists(lists):
+def multiCompLists(lists):  # ikke ferdig
     comparisonlist = []
 
 
