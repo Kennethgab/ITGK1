@@ -1,0 +1,31 @@
+
+a.)
+TCP bruket en sekvens for å identifisere hver byte av data. Slik kan hver ordningen av bytes bli gjenskapt, selv om det mangler packets.  Det blir også sendt acknowledgements(Acks) fra mottakeren til senderen for å bekrefte packets. Disse samler seg, og bekrefter 
+at tidligere bytes har også blitt sendt.  Hvis en packet går tapt, kan ikke mottakeren sende en Ack som bekrefter at den ikke er sendt tilbake til senderen. Packeten blir da sendt på nytt.
+
+
+
+Tiden det tar å overføre data over et nettverk (latency, i ms)
+Mengden data som kan bli overført per time ( kapasitet)
+rate of change til latensitet ( jitter)
+
+c.) to nøker blir brukt: en public key for client-side bruk og private key for server-side bruk.
+matematiske beregniner med modulo operasjoner og to primtall blir brukt til å generere disse nøklene, sammen med et relativtr primtall.
+
+public nøkkelen blir gitt til klienten som skal sende meldingen, som bruker nøkkelen til å enkryptere den.
+
+denne meldingen kan bare bli dekryptert med private nøkkelen.
+
+
+d.) Virtual Private Network. Det kan for eksempel brukes for å gjemme aktiviteten din fra ISP'en din. 
+ISP'en din vil da bare se at du kobler til et VPN, men ikke hva VPN er videre koblet til. 
+
+e.) Distributed Denial of Service Attack. En mengde datamaskiner med evnen til å øverføre packets oversvømmer en applikasjon/nettside
+med requests, og nettsiden går ned. 
+
+
+
+
+
+
+
