@@ -1,0 +1,23 @@
+a.) En algoritme er ett ordnet sett med utførbare steg som skaper en prosess.
+
+b.) Den har da en "upper bound" kjøretid på n^2. Den estimerer worst-case utfall av kjøretiden til algoritmen. 
+
+eksempel på n^2 , typisk for nested loops:  quicksort, shellsort, treesort  
+
+c.) en rekursiv algoritme kaller på seg selv med mindre input-verdier helt til vi får oppgitt resultat.
+
+en iterativ algoritme repeterer en funksjon/prosess helt til vi får den outputten vi vil ha. F.eks i en while/for loop.
+
+d.) waterfall model: tar fundementale aktiviterer og deler dem: spesifikasjon, utvikling, validasjon, evolusjon
+og skaper seperate steg for dem: requirements specification, software design, implementation and testing. 
+da blir først requirements specification gjennomførst, så software design osv..
+
+incremental development: de stegene i waterfall model blir blandet og funksjonaliteten blir oppdatert i inkrementer
+
+integration and configuration : Software som allerede har blitt designer og brukt blir modififisert til egnet nytt bruk
+
+
+e.) "agile" systemutvikling innebærer økt innsats for funksjonalitet og responsivitet for kundene. Filosofien er det at
+den beste prossessen er de som bruker minst ressurser. 
+
+f.)  det er en beskrivelse av hvilke brukerfunksjoner og generell ytelse et program skal ha. dette blir utarbeidet før utviklingen av programvaren. 
